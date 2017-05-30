@@ -92,7 +92,7 @@ crystalNum();
 		$("#score").text(" " + currentScore)
 
 		if (currentScore == matchNum) {
-			winCountw();
+			winCount();
 		}
 
 		else if (currentScore > matchNum) {
